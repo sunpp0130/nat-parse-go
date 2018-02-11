@@ -1,0 +1,10 @@
+<seelog>
+    <outputs formatid="main">
+        <filter levels="info">
+            <file path="./nat.log" />
+        </filter>
+    </outputs>
+    <formats>
+        <format id="main" format="%Msg%n"/>
+    </formats>
+</seelog>
